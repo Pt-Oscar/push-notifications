@@ -1,5 +1,6 @@
 require('dotenv').config();
 // RECORDAR ACTIVAR NOTIFICACIONES EN NAVEGADOR LOCALHOST:3000
+// PARA SACAR LLAVES DE WEBPUSH HACER LO SIGUIENTE EN CONSOLA: npm web-push generate-vapid-keys
 const express = require('express');
 const morgan = require('morgan');
 const path = require('path');
